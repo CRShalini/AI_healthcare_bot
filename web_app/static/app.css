@@ -1,0 +1,119 @@
+/* Header Styles */
+body {
+    background: linear-gradient(135deg, #929298b2, #081c30);
+    font-family: Arial, sans-serif;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    color: #ffffff;
+    /* Brighter white color */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    width: 60%;
+}
+
+/* Chatbox Styles */
+#chatbox {
+    min-height: 400px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #19313c;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#chatbox ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chatbox li {
+    margin-bottom: 10px;
+}
+
+/* Bot and User Text Styles */
+.botText,
+.userText {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px 0;
+    width: fit-content;
+    max-width: 80%;
+}
+
+.botText {
+    background-color: #0c2735;
+    color: #fff;
+    text-align: left;
+}
+
+.userText {
+    background-color: #19313c;
+    color: #fff;
+    text-align: right;
+    align-self: flex-end;
+}
+
+/* Input Styles */
+#userInput {
+    margin-top: 20px;
+}
+
+#textInput {
+    width: calc(100% - 80px);
+    display: inline-block;
+}
+
+#buttonInput {
+    width: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Panel Styles */
+.panel {
+    background-color: #fff;
+    border: 6px solid transparent;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.panel-info {
+    border-color: #0c2735;
+}
+
+.panel-info>.panel-heading {
+    color: white;
+    background-color: #0c2735;
+    border-color: #0c2735;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #0c2735;
+    border-top: 1px solid #0c2735;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/* Media List Styles */
+.media-list {
+    overflow: auto;
+    clear: both;
+    display: table;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+}
