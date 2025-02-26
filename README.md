@@ -1,6 +1,6 @@
 # AI Healthcare Chatbot
 
-AI Healthcare Chatbot is a project built using the RASA framework. The bot predicts the disease of the patient by their symptoms and suggests the appropriate medicine for it. The bot is trained using custom data. The operational behavior of the bot can be enhanced by feeding more data about the diseases and training the bot using those data fed.
+AI Healthcare Chatbot is a project built using the RASA framework. The bot predicts the disease of the patient by their symptoms and suggests the appropriate medicine for it. The bot is trained using custom data. The operational behavior of the bot can be enhanced by feeding more data about the diseases and training the bot using those data fed. It was a group project where I played a significant role in both frontend and backend development of the project ensuring that chatbot's interactions were smooth and informative.
 
 ## How to Run this Project
 
